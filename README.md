@@ -189,10 +189,10 @@ no sepo \\
 $$
 
 $$ BA =
-\begin{pmatrix}
+\begin{bmatrix}
 7 & 1 \\
 2 & 7 \\
-\end{pmatrix}
+\end{bmatrix}
 $$
 
 e) AT
@@ -231,7 +231,7 @@ $$ C =
 \end{pmatrix}
 $$
 
-### Verifica que (AB)C = A(BC)
+Verifica que (AB)C = A(BC)
 ---
 
 
