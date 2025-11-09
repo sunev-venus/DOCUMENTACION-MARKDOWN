@@ -237,6 +237,8 @@ $$
 
 Verifica que (AB)C = A(BC)
 
+(AB)C
+
 $$ AB =
 \begin{bmatrix}
 2 & 0 \\
@@ -271,7 +273,7 @@ $$ (AB)C =
 \end{pmatrix}
 $$
 
-----
+A(BC)
 
 $$ BC =
 \begin{bmatrix}
