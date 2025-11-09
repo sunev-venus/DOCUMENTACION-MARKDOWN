@@ -120,8 +120,40 @@ $$ D =
 $$
 
 
+---
+# EJERCICIO 2: Operaciones básicas
+ 
+### Dadas las marices:
 
+$$ A =
+\begin{pmatrix}
+2 & -1 \\
+3 & 4 \\
+\end{pmatrix}
+$$
 
+$$ B =
+\begin{pmatrix}
+5 & 2 \\
+-1 & 3 \\
+\end{pmatrix}
+$$
+
+Calcula la suma de A y B
+
+$$ A + B =
+\begin{pmatrix}
+2 + 5 & -1 + 2 \\
+3 + (-1) & 4 + 3 \\
+\end{pmatrix}
+$$
+
+$$ A + B =
+\begin{pmatrix}
+7 & 1 \\
+2 & 7 \\
+\end{pmatrix}
+$$
 
 
 
