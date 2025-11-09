@@ -167,7 +167,7 @@ $$ AB =
 \begin{bmatrix}
 10 & 4 \\
 1 & -3 \\
-------- \\
+------------ \\
 15 & 6 \\
 -4 & 12 \\
 \end{bmatrix}
@@ -183,17 +183,19 @@ $$
 d) BA
 
 $$ BA =
-\begin{pmatrix}
-no sepo \\
-2 + 5 & -1 + 2 \\
-3 + (-1) & 4 + 3 \\
-\end{pmatrix}
+\begin{bmatrix}
+10 & 5 \\
+6 & 8 \\
+--------------- \\
+-2 & 1 \\
+9 & 12 \\
+\end{bmatrix}
 $$
 
 $$ BA =
 \begin{bmatrix}
-7 & 1 \\
-2 & 7 \\
+16 & 3 \\
+7 & 13 \\
 \end{bmatrix}
 $$
 
@@ -234,6 +236,40 @@ $$ C =
 $$
 
 Verifica que (AB)C = A(BC)
+
+$$ AB =
+\begin{bmatrix}
+2 & 0 \\
+2 & 6 \\
+--------------- \\
+6 & 0 \\
+4 & 12 \\
+\end{bmatrix}
+$$
+
+$$ AB =
+\begin{pmatrix}
+4 & 6 \\
+10 & 12 \\
+\end{pmatrix}
+$$
+
+$$ (AB)C =
+\begin{bmatrix}
+4 & 4 \\
+0 & 12 \\
+--------------- \\
+10 & 10 \\
+0 & 24 \\
+\end{bmatrix}
+$$
+
+$$ (AB)C =
+\begin{pmatrix}
+4 & 16 \\
+10 & 34 \\
+\end{pmatrix}
+$$
 ---
 
 
