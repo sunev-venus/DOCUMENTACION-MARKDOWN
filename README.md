@@ -58,6 +58,7 @@ $$ A =
 0 & 1 \\
 \end{pmatrix}
 $$
+
 MATRÍZ IDENTIDAD: Los elementos de la diagonal son uno y los demás son ceros.
 
 $$ B =
@@ -67,6 +68,7 @@ $$ B =
 0 & 0 & 5 \\
 \end{pmatrix}
 $$
+
 MATRÍX DIAGONAL: Los elementos fuera de la diaonal son cero.
 
 $$ C =
@@ -76,6 +78,7 @@ $$ C =
 4 & 5 & 6 \\
 \end{pmatrix}
 $$
+
 MATRÍZ SIMÉTRICA: Los elementos son sipétricos entre sí, la diagona hace un espejo entre ellos.
 
 $$ D =
@@ -85,6 +88,7 @@ $$ D =
 0 & 0 & 6 \\
 \end{pmatrix}
 $$
+
 MATRÍZ TRIANGULAR SUPERIOR: Elementos debajo de la diagonal son cero.
 
 
