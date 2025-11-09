@@ -1,12 +1,11 @@
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
-## Alumno: Venus GEtsemaní Semino Alemán
+## Alumno: Venus Getsemaní Semino Alemán
 ## Actividad \#16 - Matrices doc
 
 ---
-### Identificación de matrices
-
-Matriz identidad, porque la diagonal está compuestos por solo unos y los elementos fuera de la diagonal son ceros.
+### Ejercicio 1: Clasificar matrices
+Identifica el tipo de cada matriz:
 
 $$ A =
 \begin{pmatrix}
@@ -39,9 +38,8 @@ $$ B =
 \end{pmatrix}
 $$
 
-MUESTRA
-
-Calcula la suma de A y B
+### Ejercicio 2: Operaciones básicas
+Dadas la matrices:
 
 $$ A =
 \begin{pmatrix}
@@ -56,6 +54,8 @@ $$ B =
 -1 & 3 \\
 \end{pmatrix}
 $$
+
+Calcula la suma de A y B
 
 $$ A + B =
 \begin{pmatrix}
