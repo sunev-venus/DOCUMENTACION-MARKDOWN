@@ -270,6 +270,43 @@ $$ (AB)C =
 10 & 34 \\
 \end{pmatrix}
 $$
+
+
+$$ BC =
+\begin{bmatrix}
+2 & 2 \\
+0 & 0 \\
+---- & ---- \\
+1 & 1 \\
+0 & 6 \\
+\end{bmatrix}
+$$
+
+$$ BC =
+\begin{pmatrix}
+2 & 2 \\
+1 & 7 \\
+\end{pmatrix}
+$$
+
+$$ a(BC) =
+\begin{bmatrix}
+2 & 2 \\
+2 & 14 \\
+---- & ---- \\
+6 & 6 \\
+4 & 28 \\
+\end{bmatrix}
+$$
+
+$$ A(BC) =
+\begin{pmatrix}
+4 & 16 \\
+10 & 34 \\
+\end{pmatrix}
+$$
+
+Verifica que (AB)C = A(BC) -> Cumple con la igualdad
 ---
 
 
