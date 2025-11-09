@@ -271,6 +271,7 @@ $$ (AB)C =
 \end{pmatrix}
 $$
 
+----
 
 $$ BC =
 \begin{bmatrix}
@@ -307,6 +308,7 @@ $$ A(BC) =
 $$
 
 Verifica que (AB)C = A(BC) -> Cumple con la igualdad
+
 ---
 
 
