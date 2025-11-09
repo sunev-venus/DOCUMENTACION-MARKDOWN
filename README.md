@@ -1,6 +1,6 @@
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
-## Alumno: Tanjiro Jesús Hernández López
+## Alumno: Venus GEtsemaní Semino Alemán
 ## Actividad \#16 - Matrices doc
 
 ---
