@@ -47,42 +47,6 @@ $$ A + B =
 \end{pmatrix}
 $$
 
-
-
-
-### Ejercicio 2: Operaciones básicas
-Dadas la matrices:
-
-$$ A =
-\begin{pmatrix}
-2 & -1 \\
-3 & 4 \\
-\end{pmatrix}
-$$
-
-$$ B =
-\begin{pmatrix}
-5 & 2 \\
--1 & 3 \\
-\end{pmatrix}
-$$
-
-Calcula la suma de A y B
-
-$$ A + B =
-\begin{pmatrix}
-2 + 5 & -1 + 2 \\
-3 + (-1) & 4 + 3 \\
-\end{pmatrix}
-$$
-
-$$ A + B =
-\begin{pmatrix}
-7 & 1 \\
-2 & 7 \\
-\end{pmatrix}
-$$
-
 ---
 # EJERCICIO 1: Clasificar matrices
  
@@ -139,7 +103,8 @@ $$ B =
 \end{pmatrix}
 $$
 
-Calcula la suma de A y B
+### Calcula
+a) A + B
 
 $$ A + B =
 \begin{pmatrix}
@@ -155,8 +120,110 @@ $$ A + B =
 \end{pmatrix}
 $$
 
+b) 2A + B
+
+$$ 7 = 2
+$$
+
+$$ 2A =
+\begin{pmatrix}
+2(2) & 2(-1) \\
+2(3) & 2(4) \\
+\end{pmatrix}
+$$
+
+$$ 2A =
+\begin{pmatrix}
+4 & -2 \\
+6 & 8 \\
+\end{pmatrix}
+$$
+
+$$ 2A - B =
+\begin{pmatrix}
+4 - 5 & -2 - 2 \\
+6 - (-1) & 8 - 3 \\
+\end{pmatrix}
+$$
+
+$$ 2A - B =
+\begin{pmatrix}
+-1 & -4 \\
+7 & 5 \\
+\end{pmatrix}
+$$
+
+c) AB
+
+$$ AB =
+\begin{pmatrix}
+no sepo \\
+2 + 5 & -1 + 2 \\
+3 + (-1) & 4 + 3 \\
+\end{pmatrix}
+$$
+
+$$ AB =
+\begin{pmatrix}
+11 & 1 \\
+11 & 18 \\
+\end{pmatrix}
+$$
+
+d) BA
+
+$$ BA =
+\begin{pmatrix}
+no sepo \\
+2 + 5 & -1 + 2 \\
+3 + (-1) & 4 + 3 \\
+\end{pmatrix}
+$$
+
+$$ BA =
+\begin{pmatrix}
+7 & 1 \\
+2 & 7 \\
+\end{pmatrix}
+$$
+
+e) AT
+
+$$ AT =
+\begin{pmatrix}
+2 & 3 \\
+-1 & 4 \\
+\end{pmatrix}
+$$
 
 
+---
+# EJERCICIO 3: Multiplicacion de cadena
+ 
+### Dadas:
+
+$$ A =
+\begin{pmatrix}
+1 & 2 \\
+3 & 4 \\
+\end{pmatrix}
+$$
+
+$$ B =
+\begin{pmatrix}
+2 & 0 \\
+1 & 3 \\
+\end{pmatrix}
+$$
+
+$$ C =
+\begin{pmatrix}
+1 & 1 \\
+0 & 2 \\
+\end{pmatrix}
+$$
+
+### Verifica que (AB)C = A(BC)
 ---
 
 
