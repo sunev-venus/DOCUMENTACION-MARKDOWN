@@ -69,7 +69,7 @@ $$ B =
 \end{pmatrix}
 $$
 
-MATRÍX DIAGONAL: Los elementos fuera de la diaonal son cero.
+MATRÍz DIAGONAL: Los elementos fuera de la diaonal son cero.
 
 $$ C =
 \begin{pmatrix}
@@ -164,11 +164,13 @@ $$
 c) AB
 
 $$ AB =
-\begin{pmatrix}
-no sepo \\
-2 + 5 & -1 + 2 \\
-3 + (-1) & 4 + 3 \\
-\end{pmatrix}
+\begin{bmatrix}
+10 & 4 \\
+1 & -3 \\
+------- \\
+15 & 6 \\
+-4 & 12 \\
+\end{bmatrix}
 $$
 
 $$ AB =
