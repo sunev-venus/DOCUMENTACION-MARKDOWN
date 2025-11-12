@@ -328,14 +328,23 @@ $$
   $$
 
 3. Luego, multiplicamos **A** por el resultado:
-   
-   $$
-   A(BC) =
-   \begin{pmatrix}
-   4 & 16 \\
-   10 & 34 \\
-   \end{pmatrix}
-   $$
+
+  $$ a(BC) =
+  \begin{bmatrix}
+  2 & 2 \\
+  2 & 14 \\
+  ---- & ---- \\
+  6 & 6 \\
+  4 & 28 \\
+  \end{bmatrix}
+  $$
+
+  $$ A(BC) =
+  \begin{pmatrix}
+  4 & 16 \\
+  10 & 34 \\
+  \end{pmatrix}
+  $$
 
 ---
 
