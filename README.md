@@ -99,14 +99,18 @@ $$
 ###  Enunciado del Problema
 Realizar operaciones básicas con las siguientes matrices:
 
-$$
+
 A =
+$$
 \begin{pmatrix}
 2 & -1 \\
 3 & 4 \\
 \end{pmatrix}
 ,\quad
+$$
+
 B =
+$$
 \begin{pmatrix}
 5 & 2 \\
 -1 & 3 \\
