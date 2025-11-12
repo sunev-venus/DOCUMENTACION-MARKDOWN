@@ -268,23 +268,41 @@ $$
 
 1. Primero, calculamos **AB**:
 
-   $$
-   AB =
-   \begin{pmatrix}
-   4 & 6 \\
-   10 & 12 \\
-   \end{pmatrix}
-   $$
+  $$ AB =
+  \begin{bmatrix}
+  2 & 0 \\
+  2 & 6 \\
+  ---- & ---- \\
+  6 & 0 \\
+  4 & 12 \\
+  \end{bmatrix}
+  $$
 
-3. Luego, multiplicamos el resultado por **C**:
+  $$ AB =
+  \begin{pmatrix}
+  4 & 6 \\
+  10 & 12 \\
+  \end{pmatrix}
+  $$
+   
+2. Luego, multiplicamos el resultado por **C**:
 
-   $$
-   (AB)C =
-   \begin{pmatrix}
-   4 & 16 \\
-   10 & 34 \\
-   \end{pmatrix}
-   $$
+   $$ (AB)C =
+  \begin{bmatrix}
+  4 & 4 \\
+  0 & 12 \\
+  ---- & ---- \\
+  10 & 10 \\
+  0 & 24 \\
+  \end{bmatrix}
+  $$
+
+  $$ (AB)C =
+  \begin{pmatrix}
+  4 & 16 \\
+  10 & 34 \\
+  \end{pmatrix}
+  $$
 
 ---
 
@@ -292,13 +310,22 @@ $$
 
 1. Primero, calculamos **BC**:
 
-   $$
-   BC =
-   \begin{pmatrix}
-   2 & 2 \\
-   1 & 7 \\
-   \end{pmatrix}
-   $$
+   $$ BC =
+  \begin{bmatrix}
+  2 & 2 \\
+  0 & 0 \\
+  ---- & ---- \\
+  1 & 1 \\
+  0 & 6 \\
+  \end{bmatrix}
+  $$
+
+  $$ BC =
+  \begin{pmatrix}
+  2 & 2 \\
+  1 & 7 \\
+  \end{pmatrix}
+  $$
 
 3. Luego, multiplicamos **A** por el resultado:
    $$
