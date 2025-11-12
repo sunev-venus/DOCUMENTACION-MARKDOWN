@@ -99,18 +99,17 @@ $$
 ###  Enunciado del Problema
 Realizar operaciones básicas con las siguientes matrices:
 
-
-A =
 $$
+A =
 \begin{pmatrix}
 2 & -1 \\
 3 & 4 \\
 \end{pmatrix}
-,\quad
 $$
 
-B =
+
 $$
+B =
 \begin{pmatrix}
 5 & 2 \\
 -1 & 3 \\
@@ -129,6 +128,10 @@ A + B =
 2 + 5 & -1 + 2 \\
 3 + (-1) & 4 + 3 \\
 \end{pmatrix}
+$$
+
+
+$$
 =
 \begin{pmatrix}
 7 & 1 \\
