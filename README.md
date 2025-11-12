@@ -287,7 +287,7 @@ $$
    
 2. Luego, multiplicamos el resultado por **C**:
 
-   $$ (AB)C =
+  $$ (AB)C =
   \begin{bmatrix}
   4 & 4 \\
   0 & 12 \\
@@ -310,7 +310,7 @@ $$
 
 1. Primero, calculamos **BC**:
 
-   $$ BC =
+  $$ BC =
   \begin{bmatrix}
   2 & 2 \\
   0 & 0 \\
