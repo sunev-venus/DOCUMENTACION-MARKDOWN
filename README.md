@@ -122,17 +122,14 @@ $$
 
 #### a) Suma de matrices A + B
 
-$$
-A + B =
+$$ A + B =
 \begin{pmatrix}
 2 + 5 & -1 + 2 \\
 3 + (-1) & 4 + 3 \\
 \end{pmatrix}
 $$
 
-
-$$
-=
+$$ A + B =
 \begin{pmatrix}
 7 & 1 \\
 2 & 7 \\
@@ -144,39 +141,49 @@ $$
 #### b) Operación 2A - B
 
 1. Multiplicamos la matriz A por el escalar 2:
-   $$
-   2A =
-   \begin{pmatrix}
-   4 & -2 \\
-   6 & 8 \\
-   \end{pmatrix}
-   $$
+
+  $$ K = 2
+  $$
+
+  $$ 2A =
+  \begin{pmatrix}
+  2(2) & 2(-1) \\
+  2(3) & 2(4) \\
+  \end{pmatrix}
+  $$
+
 
 2. Restamos la matriz B:
-   $$
-   2A - B =
-   \begin{pmatrix}
-   4 - 5 & -2 - 2 \\
-   6 - (-1) & 8 - 3 \\
-   \end{pmatrix}
-   =
-   \begin{pmatrix}
-   -1 & -4 \\
-   7 & 5 \\
-   \end{pmatrix}
-   $$
+
+$$ 2A - B =
+\begin{pmatrix}
+4 - 5 & -2 - 2 \\
+6 - (-1) & 8 - 3 \\
+\end{pmatrix}
+$$
+
+   $$ 2A - B =
+\begin{pmatrix}
+-1 & -4 \\
+7 & 5 \\
+\end{pmatrix}
+$$
 
 ---
 
 #### c) Producto de matrices AB
 
+$$ AB =
+\begin{bmatrix}
+10 & 4 \\
+1 & -3 \\
+--- & ---- \\
+15 & 6 \\
+-4 & 12 \\
+\end{bmatrix}
 $$
-AB =
-\begin{pmatrix}
-(2)(5) + (-1)(-1) & (2)(2) + (-1)(3) \\
-(3)(5) + (4)(-1) & (3)(2) + (4)(3) \\
-\end{pmatrix}
-=
+
+$$ AB =
 \begin{pmatrix}
 11 & 1 \\
 11 & 18 \\
@@ -187,25 +194,28 @@ $$
 
 #### d) Producto de matrices BA
 
+$$ BA =
+\begin{bmatrix}
+10 & 5 \\
+6 & 8 \\
+---- & ---- \\
+-2 & 1 \\
+9 & 12 \\
+\end{bmatrix}
 $$
-BA =
-\begin{pmatrix}
-(5)(2) + (2)(3) & (5)(-1) + (2)(4) \\
-(-1)(2) + (3)(3) & (-1)(-1) + (3)(4) \\
-\end{pmatrix}
-=
-\begin{pmatrix}
+
+$$ BA =
+\begin{bmatrix}
 16 & 3 \\
 7 & 13 \\
-\end{pmatrix}
+\end{bmatrix}
 $$
 
 ---
 
 #### e) Respuesta de A (Aᵀ)
 
-$$
-Aᵀ =
+$$ Aᵀ =
 \begin{pmatrix}
 2 & 3 \\
 -1 & 4 \\
@@ -229,26 +239,21 @@ Verificar que se cumple la propiedad asociativa de la multiplicación de matrice
 
 Dadas las siguientes matrices:
 
-$$
-
-A =
-
+$$ A =
 \begin{pmatrix}
 1 & 2 \\
 3 & 4 \\
 \end{pmatrix}
-,\quad
+$$
 
-B =
-
+$$ B =
 \begin{pmatrix}
 2 & 0 \\
 1 & 3 \\
 \end{pmatrix}
-,\quad
+$$
 
-C =
-
+$$ C =
 \begin{pmatrix}
 1 & 1 \\
 0 & 2 \\
