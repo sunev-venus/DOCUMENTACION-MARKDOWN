@@ -267,6 +267,7 @@ $$
 #### Cálculo de (AB)C
 
 1. Primero, calculamos **AB**:
+
    $$
    AB =
    \begin{pmatrix}
@@ -275,7 +276,8 @@ $$
    \end{pmatrix}
    $$
 
-2. Luego, multiplicamos el resultado por **C**:
+3. Luego, multiplicamos el resultado por **C**:
+
    $$
    (AB)C =
    \begin{pmatrix}
@@ -289,6 +291,7 @@ $$
 #### Cálculo de A(BC)
 
 1. Primero, calculamos **BC**:
+
    $$
    BC =
    \begin{pmatrix}
@@ -297,7 +300,7 @@ $$
    \end{pmatrix}
    $$
 
-2. Luego, multiplicamos **A** por el resultado:
+3. Luego, multiplicamos **A** por el resultado:
    $$
    A(BC) =
    \begin{pmatrix}
