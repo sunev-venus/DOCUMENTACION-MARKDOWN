@@ -328,6 +328,7 @@ $$
   $$
 
 3. Luego, multiplicamos **A** por el resultado:
+   
    $$
    A(BC) =
    \begin{pmatrix}
