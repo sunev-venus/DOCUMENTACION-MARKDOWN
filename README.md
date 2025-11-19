@@ -6,9 +6,8 @@
   
 
 ---
-
 ## Objetivo de la Documentación
-Registrar y explicar los ejercicios realizados sobre el cálculo de determinantes de matrices 2×2 y 3×3 usando diferentes métodos.
+Registrar y explicar los ejercicios realizados sobre el cálculo de **determinantes** de matrices 2×2 y 3×3 usando diferentes métodos.
 
 ---
 
@@ -20,6 +19,42 @@ Registrar y explicar los ejercicios realizados sobre el cálculo de determinante
 
 ### Enunciado del Problema
 Calcular los determinantes de las siguientes matrices 2×2:
+
+### Respuesta
+* $\det(A) = –1$
+* $\det(B) = 0$
+* $\det(C) = 0$
+* $\det(D) = 25$
+
+### Procedimiento
+
+1. **Matriz A:** $\det(A) = (5 \cdot 1) – (2 \cdot 3) = 5 – 6 = –1$
+2. **Matriz B:** $\det(B) = (–1 \cdot –8) – (4 \cdot 2) = 8 – 8 = 0$
+3. **Matriz C:** $\det(C) = (6 \cdot 3) – (9 \cdot 2) = 18 – 18 = 0$
+4. **Matriz D:** $\det(D) = (0 \cdot 0) – (5 \cdot –5) = 0 – (–25) = 25$
+
+---
+
+## Ejercicio 2: Determinante de Matriz 3×3
+
+### Enunciado del Problema
+
+F = | 2 -1 3 | | 1 4 0 | | 3 2 -2 |
+
+
+### Respuesta
+* $\det(F) = –51$
+
+### Procedimiento
+Método aplicado: **Regla de Sarrus** o expansión por cofactores.
+
+$$\det(F) = -38 - 13 = -51$$
+
+---
+
+## Ejercicio 3: Método de Cofactores para Determinantes 3×3
+
+### Enunciado del Problema
 
 math
 A = 
