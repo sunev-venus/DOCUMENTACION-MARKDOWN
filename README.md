@@ -2,369 +2,215 @@
 ## Materia: Fundamentos de álgebra
 ## Alumno: Venus Getsemaní Semino Alemán
 ## Actividad \#16 - Matrices doc
-**Fecha:** 11 de noviembre de 2025 
+**Fecha:** 18 de noviembre de 2025 
   
 
 ---
 
-##  Objetivo de la Documentación
-El propósito de este documento es **registrar y explicar paso a paso** los ejercicios relacionados con el **tema de matrices**, abarcando su **clasificación, operaciones básicas y multiplicación de cadenas de matrices**, con el fin de reforzar los fundamentos de álgebra lineal aplicados en programación.
+## Objetivo de la Documentación
+Registrar y explicar los ejercicios realizados sobre el cálculo de determinantes de matrices 2×2 y 3×3 usando diferentes métodos.
 
 ---
 
-##  Ejercicios Realizados
-
-A continuación, se documentan los ejercicios solicitados con su respectivo enunciado, solución y procedimiento. Estos fueron realizados en el salón de clase como asistencia del día.
+## Ejercicios Realizados
 
 ---
 
-#  EJERCICIO 1: Clasificar Matrices
-
-###  Enunciado del Problema
-Identificar el tipo de matriz según sus elementos y su posición dentro de la misma.
-
----
-
-###  Solución / Respuesta
-
-#### Matriz A:
-$$
-A =
-\begin{pmatrix}
-1 & 0 \\
-0 & 1 \\
-\end{pmatrix}
-$$
-
-**Tipo:** *Matriz identidad*  
-**Justificación:** Los elementos de la diagonal principal son **1** y los demás son **0**.
-
----
-
-#### Matriz B:
-$$
-B =
-\begin{pmatrix}
-3 & 0 & 0 \\
-0 & -2 & 0 \\
-0 & 0 & 5 \\
-\end{pmatrix}
-$$
-
-**Tipo:** *Matriz diagonal*  
-**Justificación:** Todos los elementos fuera de la diagonal principal son **0**.
-
----
-
-#### Matriz C:
-$$
-C =
-\begin{pmatrix}
-2 & 1 & 4 \\
-1 & 3 & 5 \\
-4 & 5 & 6 \\
-\end{pmatrix}
-$$
-
-**Tipo:** *Matriz simétrica*  
-**Justificación:** Los elementos están distribuidos de forma simétrica respecto a la diagonal principal.
-
----
-
-#### Matriz D:
-$$
-D =
-\begin{pmatrix}
-1 & 2 & 3 \\
-0 & 4 & 5 \\
-0 & 0 & 6 \\
-\end{pmatrix}
-$$
-
-**Tipo:** *Matriz triangular superior*  
-**Justificación:** Todos los elementos **debajo de la diagonal** son **0**.
-
----
-
-###  Proceso / Procedimiento
-1. Se observa cada matriz.
-2. Se identifica la posición de los ceros y los valores distintos.
-3. Se comparan los elementos con las propiedades de cada tipo de matriz.
-4. Se clasifica según corresponda: identidad, diagonal, simétrica o triangular.
-
----
-
-#  EJERCICIO 2: Operaciones Básicas
-
-###  Enunciado del Problema
-Realizar operaciones básicas con las siguientes matrices:
-
-$$
-A =
-\begin{pmatrix}
-2 & -1 \\
-3 & 4 \\
-\end{pmatrix}
-$$
-
-
-$$
-B =
-\begin{pmatrix}
-5 & 2 \\
--1 & 3 \\
-\end{pmatrix}
-$$
-
----
-
-###  Solución / Respuesta
-
-#### a) Suma de matrices A + B
-
-$$ A + B =
-\begin{pmatrix}
-2 + 5 & -1 + 2 \\
-3 + (-1) & 4 + 3 \\
-\end{pmatrix}
-$$
-
-$$ A + B =
-\begin{pmatrix}
-7 & 1 \\
-2 & 7 \\
-\end{pmatrix}
-$$
-
----
-
-#### b) Operación 2A - B
-
-1. Multiplicamos la matriz A por el escalar 2:
-
-  $$ K = 2
-  $$
-
-  $$ 2A =
-  \begin{pmatrix}
-  2(2) & 2(-1) \\
-  2(3) & 2(4) \\
-  \end{pmatrix}
-  $$
-
-
-2. Restamos la matriz B:
-
-$$ 2A - B =
-\begin{pmatrix}
-4 - 5 & -2 - 2 \\
-6 - (-1) & 8 - 3 \\
-\end{pmatrix}
-$$
-
-   $$ 2A - B =
-\begin{pmatrix}
--1 & -4 \\
-7 & 5 \\
-\end{pmatrix}
-$$
-
----
-
-#### c) Producto de matrices AB
-
-$$ AB =
-\begin{bmatrix}
-10 & 4 \\
-1 & -3 \\
---- & ---- \\
-15 & 6 \\
--4 & 12 \\
-\end{bmatrix}
-$$
-
-$$ AB =
-\begin{pmatrix}
-11 & 1 \\
-11 & 18 \\
-\end{pmatrix}
-$$
-
----
-
-#### d) Producto de matrices BA
-
-$$ BA =
-\begin{bmatrix}
-10 & 5 \\
-6 & 8 \\
----- & ---- \\
--2 & 1 \\
-9 & 12 \\
-\end{bmatrix}
-$$
-
-$$ BA =
-\begin{bmatrix}
-16 & 3 \\
-7 & 13 \\
-\end{bmatrix}
-$$
-
----
-
-#### e) Respuesta de A (Aᵀ)
-
-$$ Aᵀ =
-\begin{pmatrix}
-2 & 3 \\
--1 & 4 \\
-\end{pmatrix}
-$$
-
----
-
-###  Proceso / Procedimiento
-- **Suma y resta:** se realizan elemento por elemento.  
-- **Multiplicación:** se multiplica la fila de la primera matriz por la columna de la segunda.  
-- **Transpuesta:** se intercambian filas por columnas.  
-
----
-
-# EJERCICIO 3: Multiplicación de cadena
+## Ejercicio 1: Cálculo de Determinantes 2×2
 
 ### Enunciado del Problema
-Verificar que se cumple la propiedad asociativa de la multiplicación de matrices:  
-**(AB)C = A(BC)**
+Calcular los determinantes de las siguientes matrices 2×2:
 
-Dadas las siguientes matrices:
+math
+A = \begin{pmatrix} 5 & 2 \\ 3 & 1 \end{pmatrix},\quad
+B = \begin{pmatrix} -1 & 4 \\ 2 & -8 \end{pmatrix},\quad
+C = \begin{pmatrix} 6 & 9 \\ 2 & 3 \end{pmatrix},\quad
+D = \begin{pmatrix} 0 & 5 \\ -5 & 0 \end{pmatrix}
 
-$$ A =
-\begin{pmatrix}
-1 & 2 \\
-3 & 4 \\
+
+### Respuesta
+- *det(A) = –1*  
+- *det(B) = 0*  
+- *det(C) = 0*  
+- *det(D) = 25*
+
+### Procedimiento
+
+1. *Matriz A:*  
+   det(A) = (5·1) – (2·3) = 5 – 6 = –1
+2. *Matriz B:*  
+   det(B) = (–1·–8) – (4·2) = 8 – 8 = 0
+3. *Matriz C:*  
+   det(C) = (6·3) – (9·2) = 18 – 18 = 0
+4. *Matriz D:*  
+   det(D) = (0·0) – (5·–5) = 0 – (–25) = 25
+
+---
+
+## Ejercicio 2: Determinante de Matriz 3×3
+
+### Enunciado del Problema
+
+math
+F = \begin{pmatrix}
+2 & -1 & 3 \\
+1 & 4 & 0 \\
+3 & 2 & -2
 \end{pmatrix}
-$$
 
-$$ B =
-\begin{pmatrix}
-2 & 0 \\
-1 & 3 \\
+
+### Respuesta
+- *det(F) = –51*
+
+### Procedimiento
+Método aplicado: *Regla de Sarrus o expansión por cofactores*.
+
+math
+-38 - 13 = -51
+
+
+---
+
+## Ejercicio 3: Método de Cofactores para Determinantes 3×3
+
+### Enunciado del Problema
+
+math
+G = \begin{pmatrix}
+1 & 0 & 2 \\
+-1 & 3 & 1 \\
+2 & 0 & 1
 \end{pmatrix}
-$$
 
-$$ C =
-\begin{pmatrix}
-1 & 1 \\
-0 & 2 \\
-\end{pmatrix}
-$$
+
+### Respuesta
+- *det(G) = –9*
+
+### Procedimiento
+
+#### Expansión por cofactores (primera fila)
+
+- *Término 1 (G₁₁):*  
+  G₁₁ = 1  
+  Signo: *+*  
+  Menor:
+
+  math
+  M_{11} = \det\begin{pmatrix} 3 & 1 \\ 0 & 1 \end{pmatrix}
+  = 3
+  
+
+  Término: (1)(3) = 3
+
+- *Término 2 (G₁₂):*  
+  G₁₂ = 0  
+  → Término = *0*
+
+- *Término 3 (G₁₃):*  
+  G₁₃ = 2  
+  Signo: *+*  
+  Menor:
+
+  math
+  M_{13} = \det\begin{pmatrix} -1 & 3 \\ 2 & 0 \end{pmatrix}
+  = - (3·2) = -6
+  
+
+  Término: (2)(–6) = –12
+
+#### Resultado final
+
+math
+\det(G) = 3 + 0 - 12 = -9
+
 
 ---
 
-### Solución / Respuesta
+## Ejercicio 4: Propiedades de los Determinantes
 
-#### Cálculo de (AB)C
+### Enunciado del Problema
 
-1. Primero, calculamos **AB**:
+math
+A = \begin{pmatrix} 2 & 1 \\ 1 & 3 \end{pmatrix},\quad
+B = \begin{pmatrix} 1 & 2 \\ 3 & 1 \end{pmatrix}
 
-  $$ AB =
-  \begin{bmatrix}
-  2 & 0 \\
-  2 & 6 \\
-  ---- & ---- \\
-  6 & 0 \\
-  4 & 12 \\
-  \end{bmatrix}
-  $$
 
-  $$ AB =
-  \begin{pmatrix}
-  4 & 6 \\
-  10 & 12 \\
-  \end{pmatrix}
-  $$
-   
-2. Luego, multiplicamos el resultado por **C**:
+### Respuesta 
+- *det(A) = 5*  
+- *det(B) = –5*  
+- *det(AB) = –25*  
+- *det(Aᵀ) = 5*
 
-  $$ (AB)C =
-  \begin{bmatrix}
-  4 & 4 \\
-  0 & 12 \\
-  ---- & ---- \\
-  10 & 10 \\
-  0 & 24 \\
-  \end{bmatrix}
-  $$
+### Procedimiento
 
-  $$ (AB)C =
-  \begin{pmatrix}
-  4 & 16 \\
-  10 & 34 \\
-  \end{pmatrix}
-  $$
+#### Cálculo de determinantes reales
 
----
+1. *Determinante de A*
 
-#### Cálculo de A(BC)
+math
+\det(A) = (2·3) - (1·1) = 6 - 1 = 5
 
-1. Primero, calculamos **BC**:
 
-  $$ BC =
-  \begin{bmatrix}
-  2 & 2 \\
-  0 & 0 \\
-  ---- & ---- \\
-  1 & 1 \\
-  0 & 6 \\
-  \end{bmatrix}
-  $$
 
-  $$ BC =
-  \begin{pmatrix}
-  2 & 2 \\
-  1 & 7 \\
-  \end{pmatrix}
-  $$
+2. *Determinante de B*
 
-3. Luego, multiplicamos **A** por el resultado:
+math
+\det(B) = (1·1) - (3·2) = - 6 + 1 = - 5
 
-  $$ a(BC) =
-  \begin{bmatrix}
-  2 & 2 \\
-  2 & 14 \\
-  ---- & ---- \\
-  6 & 6 \\
-  4 & 28 \\
-  \end{bmatrix}
-  $$
 
-  $$ A(BC) =
-  \begin{pmatrix}
-  4 & 16 \\
-  10 & 34 \\
-  \end{pmatrix}
-  $$
+
+#### Verificación de la propiedad  
+det(AB) = det(A)·det(B)
+
+
+- det(AB) = –25  
+- det(A)·det(B) = 5(–5) = –25
+
+*Propiedad verificada* 
+
+#### Verificación de det(Aᵀ) = det(A)
+
+- det(Aᵀ) = 5  
+- det(A) = 5  
+  *Propiedad verificada* 
 
 ---
 
-### Verificación
-Como se puede observar:
+## Ejercicio 5: Área del Paralelogramo
 
-$$
-(AB)C = A(BC)
-$$
+### Enunciado del Problema
+Vectores:
 
-Por lo tanto, **se cumple la propiedad asociativa** de la multiplicación de matrices.
+- U = (3, 2)  
+- V = (1, 4)
+
+### Respuesta
+- *Área = 10*
+
+### Procedimiento
+
+1. *Matriz formada por los vectores*
+
+math
+A = \begin{pmatrix} 3 & 2 \\ 1 & 4 \end{pmatrix}
+
+
+2. *Determinante*
+
+math
+\det(A) = 12 - 2 = 10
+
+
+3. *Interpretación geométrica*  
+El valor absoluto del determinante representa el área del paralelogramo.
+
+4. *Cambio de orden*
+
+math
+\det\begin{pmatrix} 1 & 4 \\ 3 & 2 \end{pmatrix}
+= 2 - 12 = -10
+
+
+Área = |–10| = 10
 
 ---
-
-## Conclusión
-En esta práctica se aplicaron los conceptos fundamentales de **clasificación y operaciones con matrices**, comprobando propiedades importantes como la **asociatividad**.  
-Esto permitió reforzar la lógica de operaciones elementales y mejorar la comprensión de los procesos de cálculo matricial que son base en programación y álgebra.
-
----
-
-
-
-
