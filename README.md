@@ -14,7 +14,7 @@ public class helloworld;
 }
 ```
 ```Excel
-matriz
+=TRANSPONER(persona!1:30)
 ```
 Ejemplo matriz
 | | | |
