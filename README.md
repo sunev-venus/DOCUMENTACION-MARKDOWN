@@ -6,25 +6,13 @@
 ---
 Objetivo: Documetar el Excel
 ---
-Ejemplo de como documentar código: 
-```java
-public class helloworld;
-  public static void main (string args){
-    system.out.println(Hello world);
-}
-```
-```Excel
-=TRANSPONER(persona!1:30)
-```
-Ejemplo matriz
-| | | |
-| --- | --- | --- |
-|1|2|3|
-|x|y|z|
-----
 
+4. Documentar la formula de la suma.
+5. Documentar la formula de la resta.
+6. Documentar la formula de la multiplicación escalar.
+7. Docuementar la composición.
 
-## Matrices creadas:
+1. ## Ejercicios realizados: **5 matrices (30x30)**
 
 - ### Matriz: ***Persona***
 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 |
@@ -59,12 +47,8 @@ Ejemplo matriz
 | 1.00 | 0.60 | 0.20 | 0.20 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 0.60 | 0.60 | 0.60 | 0.60 | 0.60 | 0.60 | 1.00 | 1.00 | 0.20 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 0.60 |
 | 0.60 | 1.00 | 0.60 | 0.60 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 0.60 | 0.60 | 0.60 | 0.60 | 1.00 | 1.00 | 0.20 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 |
 
----
-*Fórmula de la traspuesta de la matriz:*
-```Excel
-=TRANSPONER(persona!1:30)
-```
------
+
+----
 
 - ### Matriz: ***cositas***
 
@@ -101,11 +85,7 @@ Ejemplo matriz
 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 |
 
 ---
-*Fórmula de la traspuesta de la matriz:*
-```Excel
-=TRANSPONER(cositas!1:30)
-```
-----
+
 - ### Matriz: ***flor***
 
 | 0.80 | 0.50 | 0.50 | 0.50 | 0.80 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.80 | 0.00 | 0.00 | 0.00 | 0.00 | 0.80 | 0.80 | 0.80 | 0.80 | 0.00 | 0.80 | 0.80 | 0.80 | 0.80 | 0.00 | 0.00 | 0.00 | 0.00 |
@@ -141,11 +121,7 @@ Ejemplo matriz
 | 0.80 | 0.00 | 0.00 | 0.00 | 0.80 | 0.00 | 0.00 | 0.00 | 0.80 | 0.00 | 0.00 | 0.00 | 0.00 | 0.80 | 0.80 | 0.00 | 0.00 | 0.00 | 0.00 | 0.80 | 0.00 | 0.00 | 0.00 | 0.00 | 0.80 | 0.00 | 0.00 | 0.00 | 0.00 | 0.80 |
 
 ---
-*Fórmula de la traspuesta de la matriz:*
-```Excel
-=TRANSPONER(flor!1:30)
-```
-----
+
 - ### Matriz: ***mariposa***
 
 | 0.50 | 0.50 | 0.10 | 0.10 | 0.10 | 0.10 | 0.10 | 0.50 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.50 | 0.10 | 0.10 | 0.10 | 0.10 | 0.10 | 0.10 | 0.50 | 0.50 |
@@ -181,11 +157,6 @@ Ejemplo matriz
 | 0.50 | 0.00 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | 0.00 | 0.50 | 0.10 |
 
 ---
-*Fórmula de la traspuesta de la matriz:*
-```Excel
-=TRANSPONER(mariposa!1:30)
-```
-----
 
 - ### Matriz: ***bunny***
 
@@ -222,19 +193,42 @@ Ejemplo matriz
 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
 
+
+
+2. ## Fórmulas de la transpuesta:
+
+*Fórmula de la traspuesta de la matriz **persona**:*
+```Excel
+=TRANSPONER(persona!1:30)
+```
 ---
-*Fórmula de la traspuesta de la matriz:*
+*Fórmula de la traspuesta de la matriz **cositas**:*
+```Excel
+=TRANSPONER(cositas!1:30)
+```
+---
+*Fórmula de la traspuesta de la matriz **flor**:*
+```Excel
+=TRANSPONER(flor!1:30)
+```
+---
+*Fórmula de la traspuesta de la matriz **mariposa**:*
+```Excel
+=TRANSPONER(mariposa!1:30)
+```
+---
+*Fórmula de la traspuesta de la matriz **bunny**:*
 ```Excel
 =TRANSPONER(bunny!1:30)
 ```
 ----
-
-- ## Fórmula de la suma:
+4. ## Fórmula de la suma:
+Para la suma agarré las matrices persona y cosita.
+*Fórmula:*
+```Excel
+=ARRAYFORMULA(persona!A1:AD30 + cositas!A1:AD30)
+```
 ---
-- ## Fórmula de la resta:
----
-- ## Fórmula de la multiplicación:
----
-- ## Fórmula de la multiplicación escalar:
----
-- ## Fórmula de la composición:
+5. ## Fórmula de la resta:
+6. ## Fórmula de la multiplicación escalar:
+7. ## Fórmula de la composición:
