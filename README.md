@@ -22,6 +22,13 @@ Ejemplo matriz
 |1|2|3|
 |x|y|z|
 
+-
+--
+---
+----
+-----
+
+
 ## Matrices creadas:
 ---
 ### Matriz: ***Persona***
