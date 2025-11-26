@@ -248,6 +248,10 @@ Para la resta agarré las matrices **persona** y **cositas**.
 =ARRAYFORMULA(persona!A1:AD30 - cositas!A1:AD30)
 ```
 *Matriz:*
+
+
+
+---
 6. ## Fórmula de la multiplicación escalar:
 Para la multiplcación escalar agarré la matriz **bunny**.
 *Fórmula:*
@@ -255,6 +259,9 @@ Para la multiplcación escalar agarré la matriz **bunny**.
 =ARRAYFORMULA(bunny!A1:AD30 * 0.2)
 ```
 *Matriz:*
+
+
+---
 7. ## Fórmula de la composición:
 Para la composición agarré las matrices **flor** y **mariposa**.
 *Fórmula:*
