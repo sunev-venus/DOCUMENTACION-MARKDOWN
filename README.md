@@ -7,11 +7,6 @@
 Objetivo: Documetar el Excel
 ---
 
-4. Documentar la formula de la suma.
-5. Documentar la formula de la resta.
-6. Documentar la formula de la multiplicación escalar.
-7. Docuementar la composición.
-
 1. ## Ejercicios realizados: **5 matrices (30x30)**
 
 - ### Matriz: ***Persona***
@@ -201,34 +196,69 @@ Objetivo: Documetar el Excel
 ```Excel
 =TRANSPONER(persona!1:30)
 ```
+*Matriz:*
+
 ---
 *Fórmula de la traspuesta de la matriz **cositas**:*
 ```Excel
 =TRANSPONER(cositas!1:30)
 ```
+*Matriz:*
+
 ---
 *Fórmula de la traspuesta de la matriz **flor**:*
 ```Excel
 =TRANSPONER(flor!1:30)
 ```
+*Matriz:*
+
 ---
 *Fórmula de la traspuesta de la matriz **mariposa**:*
 ```Excel
 =TRANSPONER(mariposa!1:30)
 ```
+*Matriz:*
+
+
 ---
 *Fórmula de la traspuesta de la matriz **bunny**:*
 ```Excel
 =TRANSPONER(bunny!1:30)
 ```
+*Matriz:*
+
+
+
 ----
-4. ## Fórmula de la suma:
-Para la suma agarré las matrices persona y cosita.
+3. ## Fórmula de la suma:
+Para la suma agarré las matrices **mariposa** y **flor**.
 *Fórmula:*
 ```Excel
-=ARRAYFORMULA(persona!A1:AD30 + cositas!A1:AD30)
+=ARRAYFORMULA(mariposa!A1:AD30 + flor!A1:AD30)
 ```
----
+*Matriz:*
+
+
+
+----
 5. ## Fórmula de la resta:
+Para la resta agarré las matrices **persona** y **cositas**.
+*Fórmula:*
+```Excel
+=ARRAYFORMULA(persona!A1:AD30 - cositas!A1:AD30)
+```
+*Matriz:*
 6. ## Fórmula de la multiplicación escalar:
+Para la multiplcación escalar agarré la matriz **bunny**.
+*Fórmula:*
+```Excel
+=ARRAYFORMULA(bunny!A1:AD30 * 0.2)
+```
+*Matriz:*
 7. ## Fórmula de la composición:
+Para la composición agarré las matrices **flor** y **mariposa**.
+*Fórmula:*
+```Excel
+=flor!A1*$AE$2+mariposa!A1*$AE$5
+```
+*Matriz:*
