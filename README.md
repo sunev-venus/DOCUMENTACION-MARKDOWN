@@ -1,4 +1,5 @@
-# Documentación de Ejercicios - Juan José Zapata Buenfil
+# Documentación de Ejercicios - Venus
+
 
 ## Información General
 - **Materia:** Fundamentos de Álgebra
