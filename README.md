@@ -1,375 +1,303 @@
-# Tecnológico de Software
-## Materia: Fundamentos de álgebra
-## Alumno: Juan José Zapata Buenfil
-## Actividad \#16 - Matrices doc
+# Documentación de Ejercicios - Juan José Zapata Buenfil
 
----
+## Información General
+- **Materia:** Fundamentos de Álgebra
+- **Tema:** Operaciones con Matrices
+- **Fecha:** 17 de Noviembre 2024
+- **Estudiante:** Juan José Zapata Buenfil
+- **Grupo:** B
 
 ## Objetivo de la Documentación
-El propósito de este documento es registrar y explicar los ejercicios realizados en la Actividad que nos marcó el profesor, enfocada en la identificación, clasificación y operaciones básicas con matrices.
+El propósito de este documento es registrar y explicar los ejercicios realizados en la Actividad #16, enfocada en la identificación, clasificación y operaciones básicas con matrices. Se documenta el proceso de resolución paso a paso para cada ejercicio.
 
 ---
 
 ## Ejercicios Realizados
 
-### Ejercicio 1: Identificación de matrices
+### Ejercicio 1: Cálculo de Determinantes 2×2
 
-* **Enunciado del Problema :**
-    Identifica el tipo de cada matriz.
-  
---- 
-
-#### Matriz A
-$$
-A = \begin{pmatrix}
-1 & 0 \\
-0 & 1 \\
-\end{pmatrix}
-$$
-
-* **Procedimiento:**
-    1. Es una matriz de 2x2 (originalmente pensaba que era solo cuadrada).
-    2. Los elementos de la diagonal principal son 1.
-    3. Los elementos fuera de la diagonal principal son 0.
-          
-* **Respuesta:**
-        La matriz A es una *Matriz Identidad de tamaño 2x2.*  
-    
----
-
-#### Matriz B
-$$
-B = \begin{pmatrix}
-3 & 0 & 0 \\
-0 & -2 & 0 \\
-0 & 0 & 5 \\
-\end{pmatrix}
-$$
-
-* **Procedimiento:**.
-    1.  Se ve que todos los elementos fuera de la diagonal principal (arriba y abajo) son 0.
-    2.  Los elementos en la diagonal principal (3, -2, 5) son distintos de 0.
-    3.  Como solo los valores de la diagonal son algo diferente a 0 se le denomina a esta matriz el tipo diagonal.
-
-* **Respuesta:**
-    La matriz B es una *Matriz Diagonal*.
-
----
-
-#### Matriz C
-$$
-C = \begin{pmatrix}
-2 & 1 & 4 \\
-1 & 3 & 5 \\
-4 & 5 & 6 \\
-\end{pmatrix}
-$$
-
-* **Procedimiento:**.
-    1.  Es una matriz de 3x3, por lo tanto es una matriz cuadrada (sin embargo hay algo mas).
-    2.  Se puede notar que todos los elementos tienen un mismo valor en la parte inferior de la tabla
-        * El elemento 1,2 (1) es igual al 2,1 (1).
-        * El elemento 1,3 (4) es igual al 3,1 (4).
-        * El elemento 2,3 (5) es igual al 3,2 (5).
-    3.  Dado que los elementos inferiores de la matriz son iguales a los superiores se clasifica como simetrica.
-
-* **Respuesta:**
-    La matriz C es una *Matriz Simétrica*.
-
----
-
-#### Matriz D
-$$
-D = \begin{pmatrix}
-1 & 2 & 3 \\
-0 & 4 & 5 \\
-0 & 0 & 6 \\
-\end{pmatrix}
-$$
-
-* **Procedimiento:**.
-    1.  Se puede ver que es una matriz cuadrada 3x3.
-    2.  Se ve que todos los elementos situados por debajo de la diagonal principal son 0.
-    3.  Los elementos sobre la diagonal principal no son 0.
-    4.  La estructura corresponde a una matriz triangular superior.
-
-* **Respuesta:**
-    La matriz D es una *Matriz Triangular Superior*.
-
----
-
-### Ejercicio 2: Operaciones básicas
-
-* **Enunciado del Problema:**
-    Dadas las matrices, calcula.
-
-
-#### a) A + B
-
-* **Procedimiento:**
-    Se suman los elementos correspondientes de cada matriz (elemento por elemento).
-  
-$$
-A + B = \left(\begin{array}{cc}
-2+5 & -1+2 \\
-3+(-1) & 4+3 \\
-\end{array}\right)
-= \left(\begin{array}{cc}
-7 & 1 \\
-2 & 7 \\
-\end{array}\right)
-$$
-
-* **Respuesta:**
-  
-$$
-\left(\begin{array}{cc}
-7 & 1 \\
-2 & 7 \\
-\end{array}\right)
-$$
-
-
-
-#### b) 2A - B 
-
-$$
-2A = 2 \times \left(\begin{array}{cc}
-2 & -1 \\
-3 & 4 \\
-\end{array}\right) = \left(\begin{array}{cc}
-4 & -2 \\
-6 & 8 \\
-\end{array}\right)
-$$
-
-$$
-2A - B = \left(\begin{array}{cc}
-4 & -2 \\
-6 & 8 \\
-\end{array}\right) - \left(\begin{array}{cc}
-5 & 2 \\
--1 & 3 \\
-\end{array}\right) = \left(\begin{array}{cc}
-4-5 & -2-2 \\
-6-(-1) & 8-3 \\
-\end{array}\right)
-$$
-
-* **Respuesta:**
-  
-$$
-\left(\begin{array}{cc}
--1 & -4 \\
-7 & 5 \\
-\end{array}\right)
-$$
-
-
-
-#### c) AB 
-
-* **Procedimiento:**
-  Multiplicación de matrices (fila por columna).
-
-$$
-AB = \left(\begin{array}{cc}
-2 & -1 \\
-3 & 4 \\
-\end{array}\right) \left(\begin{array}{cc}
-5 & 2 \\
--1 & 3 \\
-\end{array}\right)
-$$
-
-$$
-= \left(\begin{array}{cc}
-(2\times5) + (-1\times-1) & (2\times2) + (-1\times3) \\
-(3\times5) + (4\times-1) & (3\times2) + (4\times3) \\
-\end{array}\right)
-$$
-
-$$
-= \left(\begin{array}{cc}
-10 + 1 & 4 - 3 \\
-15 - 4 & 6 + 12 \\
-\end{array}\right)
-$$
-
-* **Respuesta:**
-  
-$$
-\left(\begin{array}{cc}
-11 & 1 \\
-11 & 18 \\
-\end{array}\right)
-$$
-
-
-
-#### d) BA
-
-* **Procedimiento:**
-  Multiplicación de matrices en orden inverso.
-
-$$
-BA = \left(\begin{array}{cc}
-5 & 2 \\
--1 & 3 \\
-\end{array}\right) \left(\begin{array}{cc}
-2 & -1 \\
-3 & 4 \\
-\end{array}\right)
-$$
-
-$$
-= \left(\begin{array}{cc}
-(5\times2) + (2\times3) & (5\times-1) + (2\times4) \\
-(-1\times2) + (3\times3) & (-1\times-1) + (3\times4) \\
-\end{array}\right)
-$$
-
-$$
-= \left(\begin{array}{cc}
-10 + 6 & -5 + 8 \\
--2 + 9 & 1 + 12 \\
-\end{array}\right)
-$$
-
-* **Respuesta:**
-  
-$$
-\left(\begin{array}{cc}
-16 & 3 \\
-7 & 13 \\
-\end{array}\right)
-$$
-
-
-
-#### e) A^T
-
-* **Procedimiento:**
-  Se mueve la matriz (intercambio de filas por columnas).
+#### Enunciado del Problema
+Calcular los determinantes de las siguientes matrices 2×2:
 
 $$
 A = \left(\begin{array}{cc}
-2 & -1 \\
-3 & 4 \\
-\end{array}\right)
-$$
-
-* **Respuesta:**
-  
-$$
-A^T = \left(\begin{array}{cc}
-2 & 3 \\
+5 & 2 \\
+3 & 1 \\
+\end{array}\right), \quad 
+B = \left(\begin{array}{cc}
 -1 & 4 \\
+2 & -8 \\
+\end{array}\right), \quad 
+C = \left(\begin{array}{cc}
+6 & 9 \\
+2 & 3 \\
+\end{array}\right), \quad 
+D = \left(\begin{array}{cc}
+0 & 5 \\
+-5 & 0 \\
 \end{array}\right)
 $$
 
----
+#### Respuesta
+- **Determinante de A:** -1
+- **Determinante de B:** 0
+- **Determinante de C:** 0
+- **Determinante de D:** 25
 
-#### Ejercicio 3: Multiplicación en cadena
+#### Procedimiento
+1. **Fórmula del determinante 2×2:** Para una matriz \( \left(\begin{array}{cc} a & b \\ c & d \end{array}\right) \), el determinante es \( ad - bc \)
 
-* **Enunciado del Problema:**
-  Dadas las matrices:
-
-#### Parte 1: Calcular (AB)C
-
-* **Procedimiento:**
-  Primero se calcula AB, luego multiplicamos el resultado por C.
-
-**Paso 1: AB**
-
-$$
-AB = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix}
-= \begin{pmatrix} 
-(1\times2)+(2\times1) & (1\times0)+(2\times3) \\
-(3\times2)+(4\times1) & (3\times0)+(4\times3) 
-\end{pmatrix}
-= \begin{pmatrix} 
-2+2 & 0+6 \\
-6+4 & 0+12 
-\end{pmatrix}
-= \begin{pmatrix} 
-4 & 6 \\
-10 & 12 
-\end{pmatrix}
-$$
-
-**Paso 2: (AB)C**
-
-$$
-(AB)C = \begin{pmatrix} 4 & 6 \\ 10 & 12 \end{pmatrix} \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}
-= \begin{pmatrix} 
-(4\times1)+(6\times0) & (4\times1)+(6\times2) \\
-(10\times1)+(12\times0) & (10\times1)+(12\times2) 
-\end{pmatrix}
-= \begin{pmatrix} 
-4+0 & 4+12 \\
-10+0 & 10+24 
-\end{pmatrix}
-= \begin{pmatrix} 
-4 & 16 \\
-10 & 34 
-\end{pmatrix}
-$$
+<ol start="2">
+  <li><strong>Cálculo para matriz A:</strong> $\det(A) = (5 \times 1) - (2 \times 3) = 5 - 6 = -1$</li>
+  <li><strong>Cálculo para matriz B:</strong> $\det(B) = (-1 \times -8) - (4 \times 2) = 8 - 8 = 0$</li>
+  <li><strong>Cálculo para matriz C:</strong> $\det(C) = (6 \times 3) - (9 \times 2) = 18 - 18 = 0$</li>
+  <li><strong>Cálculo para matriz D:</strong> $\det(D) = (0 \times 0) - (5 \times -5) = 0 - (-25) = 0 + 25 = 25$</li>
+</ol>
 
 ---
 
-#### Parte 2: Calcular A(BC)
+### Ejercicio 2: Regla de Sarrus para Determinantes 3×3
 
-* **Procedimiento:**
-  Primero se calcula BC, luego multiplicamos A por el resultado.
-
-**Paso 1: BC**
+#### Enunciado del Problema
+Usar la regla de Sarrus para calcular los determinantes de las matrices 3×3:
 
 $$
-BC = \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix} \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}
-= \begin{pmatrix} 
-(2\times1)+(0\times0) & (2\times1)+(0\times2) \\
-(1\times1)+(3\times0) & (1\times1)+(3\times2) 
-\end{pmatrix}
-= \begin{pmatrix} 
-2+0 & 2+0 \\
-1+0 & 1+6 
-\end{pmatrix}
-= \begin{pmatrix} 
-2 & 2 \\
-1 & 7 
-\end{pmatrix}
+E = \left(\begin{array}{ccc}
+1 & 2 & 3 \\
+0 & 1 & 4 \\
+5 & 6 & 0 \\
+\end{array}\right), \quad 
+F = \left(\begin{array}{ccc}
+2 & -1 & 3 \\
+1 & 4 & 0 \\
+3 & 2 & -2 \\
+\end{array}\right)
 $$
 
-**Paso 2: A(BC)**
+#### Respuesta
+- **Determinante de E:** 1
+- **Determinante de F:** -48
+
+#### Procedimiento
+
+## Cálculo para la Matriz E
+
+Para calcular el determinante de E, $\det(E)$, aumentamos la matriz repitiendo las primeras dos columnas:
 
 $$
-A(BC) = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} \begin{pmatrix} 2 & 2 \\ 1 & 7 \end{pmatrix}
-= \begin{pmatrix} 
-(1\times2)+(2\times1) & (1\times2)+(2\times7) \\
-(3\times2)+(4\times1) & (3\times2)+(4\times7) 
-\end{pmatrix}
-= \begin{pmatrix} 
-2+2 & 2+14 \\
-6+4 & 6+28 
-\end{pmatrix}
-= \begin{pmatrix} 
-4 & 16 \\
-10 & 34 
-\end{pmatrix}
+\det(E) = \left| \begin{array}{ccc|cc}
+1 & 2 & 3 & 1 & 2 \\
+0 & 1 & 4 & 0 & 1 \\
+5 & 6 & 0 & 5 & 6
+\end{array} \right|
+$$
+
+**1. Suma de diagonales positivas:**
+$(1 \times 1 \times 0) + (2 \times 4 \times 5) + (3 \times 0 \times 6) = 0 + 40 + 0 = 40$
+
+**2. Suma de diagonales negativas:**
+$(3 \times 1 \times 5) + (1 \times 4 \times 6) + (2 \times 0 \times 0) = 15 + 24 + 0 = 39$
+
+**3. Resultado:**
+$\det(E) = (\text{Suma positiva}) - (\text{Suma negativa}) = 40 - 39 = 1$
+
+
+## Cálculo para la Matriz F
+
+Para calcular el determinante de F, $\det(F)$, repetimos el proceso:
+
+$$
+\det(F) = \left| \begin{array}{ccc|cc}
+2 & -1 & 3 & 2 & -1 \\
+1 & 4 & 0 & 1 & 4 \\
+3 & 2 & -2 & 3 & 2
+\end{array} \right|
+$$
+
+**1. Suma de diagonales positivas :**
+$(2 \times 4 \times -2) + (-1 \times 0 \times 3) + (3 \times 1 \times 2) = -16 + 0 + 6 = -10$
+
+**2. Suma de diagonales negativas :**
+$(3 \times 4 \times 3) + (2 \times 0 \times 2) + (-1 \times 1 \times -2) = 36 + 0 + 2 = 38$
+
+**3. Resultado:**
+$\det(F) = (\text{Suma positiva}) - (\text{Suma negativa}) = -10 - 38 = -48$
+
+---
+
+### Ejercicio 3: Método de Cofactores para Determinantes 3×3
+
+#### Enunciado del Problema
+Calcular el determinante usando el método de cofactores (expandir por la fila o columna más conveniente):
+
+$$
+G = \left(\begin{array}{ccc}
+1 & 0 & 2 \\
+-1 & 3 & 1 \\
+2 & 0 & 1 \\
+\end{array}\right)
+$$
+
+#### Respuesta
+- **Determinante de G:** -9
+
+#### Procedimiento
+
+1. **Identificar los signos de los cofactores:**
+$$
+\left( \begin{array}{ccc}
++ & - & + \\
+- & + & - \\
++ & - & +
+\end{array} \right)
+$$
+
+**2. Fórmula de expansión (por Columna 2):**
+
+$$
+\det(G) = (G_{12} \times C_{12}) + (G_{22} \times C_{22}) + (G_{32} \times C_{32})
+$$
+
+**Cálculo de los términos:**
+
+* **Término 1 ($G_{12}$):** $G_{12} = 0$, por lo tanto $0 \times C_{12} = 0$.
+* **Término 3 ($G_{32}$):** $G_{32} = 0$, por lo tanto $0 \times C_{32} = 0$.
+* **Término 2 ($G_{22}$):**
+    * $G_{22} = 3$
+    * El signo de la posición (2,2) es **Positivo** (+).
+    * El menor $M_{22}$ se obtiene eliminando la fila 2 y la columna 2: $M_{22} = \det \left( \begin{array}{cc} 1 & 2 \\ 2 & 1 \end{array} \right)$
+    * Se calcula el menor: $(1 \times 1) - (2 \times 2) = 1 - 4 = -3$.
+    * El término completo es: $(\text{signo}) \times (\text{valor}) \times (\text{menor}) = (+) \times (3) \times (-3) = -9$.
+
+**5. Resultado final:**
+
+$$
+\det(G) = 0 + (-9) + 0 = -9
 $$
 
 ---
 
-#### Resultado 
+### Ejercicio 4: Verificar Propiedades de los Determinantes
 
+#### Enunciado del Problema
+Dadas las matrices A y B, verificar que:
+- $\det(AB) = \det(A) \cdot \det(B)$
+- $\det(A^T) = \det(A)$
 
-* **Resultado Obtenido:**
-  
 $$
-(AB)C = A(BC) = \begin{pmatrix}
-4 & 16 \\
-10 & 34 \end{pmatrix}
+A = \left(\begin{array}{cc}
+2 & 1 \\
+1 & 3 \\
+\end{array}\right), \quad 
+B = \left(\begin{array}{cc}
+1 & 2 \\
+3 & 1 \\
+\end{array}\right)
 $$
+
+#### Respuesta
+- **$\det(A) = 5$**
+- **$\det(B) = -5$**
+- **$\det(AB) = -25$**
+- **$\det(A^T) = 5$**
+
+#### Procedimiento
+
+** Cálculo de determinantes**
+
+1. **Determinante de A:**
+   
+$$
+\det(A) = (2 \times 3) - (1 \times 1) = 6 - 1 = 5
+$$
+
+3. **Determinante de B:**
+   
+$$
+\det(B) = (1 \times 1) - (2 \times 3) = 1 - 6 = -5
+$$
+
+**Verificación de $\det(AB) = \det(A) \cdot \det(B)$**
+
+3. **Calcular AB:**
+
+AB = | 2 1 | × | 1 2 | = | (2×1)+(1×3) (2×2)+(1×1) | = | 2+3 4+1 | = | 5 5 |
+| 1 3 | | 3 1 | | (1×1)+(3×3) (1×2)+(3×1) | | 1+9 2+3 | | 10 5 |
+
+4. **Calcular $\det(AB)$:**
+
+   det(AB) = (5 × 5) - (5 × 10) = 25 - 50 = -25
+
+6. **Verificar la propiedad:**
+   
+det(A) × det(B) = 5 × (-5) = -25
+
+7. **Calcular $A^T$:**
+   
+    | 2  1 |T    | 2  1 |
+    A^T = | 1 3 | = | 1 3 |
+
+8. **Calcular $\det(A^T)$:**
+   
+$$
+\det(A^T) = (2 \times 3) - (1 \times 1) = 6 - 1 = 5
+$$
+
+10. **Verificar la propiedad:**
+
+   **$\det(A^T) = 5 = \det(A)$**
 
 ---
+
+### Ejercicio 5: Aplicación Geométrica de los Determinantes
+
+#### Enunciado del Problema
+Dados los vectores $\vec{u} = (3, 2)$ y $\vec{v} = (1, 4)$:
+a) Calcula el área del paralelogramo que forman  
+b) ¿Cambia el área si intercambias los vectores?  
+c) ¿Qué representa el signo del determinante?
+
+#### Solución o Respuesta
+- **a) Área del paralelogramo: 10 unidades 
+- **b) El área si cambia al intercambiar vectores
+- **c) El signo indica la orientación de los vectores
+
+#### Procedimiento
+
+**Cálculo del área del paralelogramo**
+
+1. **Matriz formada por los vectores:**
+
+$$
+M = \left(\begin{array}{cc}
+3 & 2 \\
+1 & 4 \\
+\end{array}\right)
+$$
+
+2. **Cálculo del determinante:**
+
+$$
+\det(M) = (3 \times 4) - (2 \times 1) = 12 - 2 = 10
+$$
+
+3. **Matriz con vectores intercambiados:**
+
+$$
+M' = \left(\begin{array}{cc}
+1 & 4 \\
+3 & 2 \\
+\end{array}\right)
+$$
+
+4. **Cálculo del nuevo determinante:**
+
+$$
+\det(M') = (1 \times 2) - (4 \times 3) = 2 - 12 = -10
+$$
+
+7. **Significado del signo:**
+   - **Signo positivo (+10):** Los vectores están en orientación antihoraria (sentido positivo)
+   - **Signo negativo (-10):** Los vectores están en orientación horaria (sentido negativo)
+   - El *determinante* representa el área
+   - El *signo* representa la orientación en el plano
