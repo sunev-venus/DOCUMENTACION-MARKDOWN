@@ -266,18 +266,69 @@ $$
 
 ---
 
-#### Matriz D:
+#### Resolución por regla de Cramer
+
+Matrices:
+
 $$
-D =
+A =
 \begin{pmatrix}
-1 & 2 & 3 \\
-0 & 4 & 5 \\
-0 & 0 & 6 \\
-\end{pmatrix}
+1 & 1 & 1\\
+2 & -1 & 1\\
+1 & 2 & -1
+\end{pmatrix},\quad
+\mathbf{b} =
+\begin{pmatrix}
+6\\3\\2
+\end{pmatrix},
 $$
 
-**Tipo:** *Matriz triangular superior*  
-**Justificación:** Todos los elementos **debajo de la diagonal** son **0**.
+Determinante:
+
+$$
+D = 7
+$$
+
+Matrices modificadas:
+
+$$
+A_x =
+\begin{pmatrix}
+6 & 1 & 1\\
+3 & -1 & 1\\
+2 & 2 & -1
+\end{pmatrix},
+$$
+
+$$
+A_y =
+\begin{pmatrix}
+1 & 6 & 1\\
+2 & 3 & 1\\
+1 & 2 & -1
+\end{pmatrix},
+$$
+
+$$
+A_z =
+\begin{pmatrix}
+1 & 1 & 6\\
+2 & -1 & 3\\
+1 & 2 & 2
+\end{pmatrix}.
+$$
+
+Determinantes:
+
+$$
+D_x=7,\quad D_y=14,\quad D_z=21
+$$
+
+Solución:
+
+$$
+x=1,\quad y=2,\quad z=3.
+$$
 
 ---
 
