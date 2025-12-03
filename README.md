@@ -457,6 +457,56 @@ x=2,\quad y=1.
 $$
 
 ---
+## Ejercicio 3. Sistema (4x4)
+
+Sistema:
+
+$$
+\begin{cases}
+x + y + z + w = 10\\
+2x + y - z + w = 5\\
+x - y + z - w = 1\\
+x + y - z + 2w = 8
+\end{cases}
+$$
+
+Matriz aumentada:
+
+$$
+\left[
+\begin{array}{cccc|c}
+1 & 1 & 1 & 1 & 10\\
+2 & 1 & -1 & 1 & 5\\
+1 & -1 & 1 & -1 & 1\\
+1 & 1 & -1 & 2 & 8
+\end{array}
+\right]
+$$
+
+resultado:
+
+$$
+\left[
+\begin{array}{cccc|c}
+1 & 1 & 1 & 1 & 10\\
+0 & 1 & 3 & 1 & 15\\
+0 & 0 & 1 & 0 & 7/2\\
+0 & 0 & 0 & 1 & 5
+\end{array}
+\right]
+$$
+
+Sustituimos:
+
+$$
+w=5,\quad z=\frac{7}{2},\quad y=-\frac{1}{2},\quad x=2
+$$
+
+Solución:
+
+$$
+(x,y,z,w)=\left(2,-\frac{1}{2},\frac{7}{2},5\right)
+$$
 
 
 ---
