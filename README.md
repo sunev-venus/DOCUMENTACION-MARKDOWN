@@ -512,9 +512,7 @@ $$
 ---
 
 ## Conclusión
-En esta práctica se aplicaron los conceptos fundamentales de **clasificación y operaciones con matrices**, comprobando propiedades importantes como la **asociatividad**.  
-Esto permitió reforzar la lógica de operaciones elementales y mejorar la comprensión de los procesos de cálculo matricial que son base en programación y álgebra.
-
+En esta práctica pracitcamos lo aplicado en clase y como podemos resolver el lmismo ejercicio de sistema lineal
 ---
 
 
