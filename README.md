@@ -202,18 +202,67 @@ x = 1,\quad y = 2,\quad z = 3.
 $$
 
 ---
-#### Matriz C:
+#### Resolución por matriz inversa
+Matirz:
 $$
-C =
+A =
 \begin{pmatrix}
-2 & 1 & 4 \\
-1 & 3 & 5 \\
-4 & 5 & 6 \\
+1 & 1 & 1\\
+2 & -1 & 1\\
+1 & 2 & -1
+\end{pmatrix}.
+$$
+
+Determinante por Sarrus:
+
+$$
+\det(A) = 1(-1)(-1) + 1(1)(1) + 1(2)(2)
+          - 1(-1)(1) - 1(2)(-1) - 1(1)(2)
+        = 7.
+$$
+
+Como \(\det(A)\neq 0\), si hay inversa:
+
+$$
+A^{-1} = \frac{1}{7}
+\begin{pmatrix}
+-1 & 3 & 2\\
+3 & -2 & 1\\
+5 & -1 & -3
+\end{pmatrix}.
+$$
+
+Multiplicamos \(A^{-1}\mathbf{b}\):
+
+$$
+A^{-1}\mathbf{b}
+= \frac{1}{7}
+\begin{pmatrix}
+-1 & 3 & 2\\
+3 & -2 & 1\\
+5 & -1 & -3
+\end{pmatrix}
+\begin{pmatrix}
+6\\3\\2
+\end{pmatrix}.
+$$
+
+Resultado:
+
+$$
+\begin{pmatrix}
+7\\14\\21
 \end{pmatrix}
 $$
 
-**Tipo:** *Matriz simétrica*  
-**Justificación:** Los elementos están distribuidos de forma simétrica respecto a la diagonal principal.
+Aplicamos \(\tfrac{1}{7}\):
+
+$$
+\mathbf{x}=
+\begin{pmatrix}
+1\\2\\3
+\end{pmatrix}.
+$$
 
 ---
 
