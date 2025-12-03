@@ -1,222 +1,142 @@
 # Tecnológico de Software
-## Materia: Fundamentos de álgebra
-## Alumno: Venus Getsemaní Semino Alemán
-## Actividad \#16 - Matrices doc
-**Fecha:** 18 de noviembre de 2025 
-  
+## Materia: Fundamentos de Álgebra
+### Alumno: Venus Getsemaní Semino Alemán
+### Actividad #16 - Documentación de Matrices
 
----
-## Objetivo de la Documentación:
-Registrar y explicar los ejercicios realizados sobre el cálculo de determinantes de matrices 2×2 y 3×3 usando diferentes métodos.
+**Fecha:** 18 de noviembre de 2025
 
 ---
 
-## Ejercicios Realizados
+##  Objetivo de la Documentación
+Registrar y explicar los ejercicios realizados sobre el cálculo de determinantes de matrices $2 \times 2$ y $3 \times 3$ usando diferentes métodos.
 
 ---
 
-## Ejercicio 1: Cálculo de Determinantes 2×2
+## 📝 Ejercicios Realizados
 
-### Enunciado del Problema
-Calcular los determinantes de las siguientes matrices 2×2:
+### Ejercicio 1: Cálculo de Determinantes $2 \times 2$
 
-math
+**Enunciado:** Calcular los determinantes de las siguientes matrices:
 
+$$
 A = \begin{pmatrix} 5 & 2 \\ 3 & 1 \end{pmatrix},\quad
-
 B = \begin{pmatrix} -1 & 4 \\ 2 & -8 \end{pmatrix},\quad
-
 C = \begin{pmatrix} 6 & 9 \\ 2 & 3 \end{pmatrix},\quad
-
 D = \begin{pmatrix} 0 & 5 \\ -5 & 0 \end{pmatrix}
+$$
 
+**Resultados y Procedimiento:**
 
-### Respuesta:
-- *det(A) = –1*  
-- *det(B) = 0*  
-- *det(C) = 0*  
-- *det(D) = 25*
-
-### Procedimiento:
-
-1. *Matriz A:*  
-   det(A) = (5·1) – (2·3) = 5 – 6 = –1
-   
-2. *Matriz B:*  
-   det(B) = (–1·–8) – (4·2) = 8 – 8 = 0
-   
-3. *Matriz C:*  
-   det(C) = (6·3) – (9·2) = 18 – 18 = 0
-   
-4. *Matriz D:*  
-   det(D) = (0·0) – (5·–5) = 0 – (–25) = 25
+1.  **Matriz A:**
+    $$\det(A) = (5 \cdot 1) - (2 \cdot 3) = 5 - 6 = -1$$
+2.  **Matriz B:**
+    $$\det(B) = (-1 \cdot -8) - (4 \cdot 2) = 8 - 8 = 0$$
+3.  **Matriz C:**
+    $$\det(C) = (6 \cdot 3) - (9 \cdot 2) = 18 - 18 = 0$$
+4.  **Matriz D:**
+    $$\det(D) = (0 \cdot 0) - (5 \cdot -5) = 0 - (-25) = 25$$
 
 ---
 
-## Ejercicio 2: Determinante de Matriz 3×3
+### Ejercicio 2: Determinante de Matriz $3 \times 3$
 
-### Enunciado del Problema
+**Enunciado:**
 
-math
+$$
 F = \begin{pmatrix}
 2 & -1 & 3 \\
 1 & 4 & 0 \\
 3 & 2 & -2
 \end{pmatrix}
+$$
 
+**Resultado:**
+* $\det(F) = -51$
 
-### Respuesta:
-- *det(F) = –51*
-
-### Procedimiento:
+**Procedimiento:**
 Método aplicado: *Regla de Sarrus o expansión por cofactores*.
-
-math
--38 - 13 = -51
-
+$$-38 - 13 = -51$$
 
 ---
 
-## Ejercicio 3: Método de Cofactores para Determinantes 3×3
+### Ejercicio 3: Método de Cofactores ($3 \times 3$)
 
-### Enunciado del Problema
+**Enunciado:**
 
-math
+$$
 G = \begin{pmatrix}
 1 & 0 & 2 \\
 -1 & 3 & 1 \\
 2 & 0 & 1
 \end{pmatrix}
+$$
 
+**Resultado:**
+* $\det(G) = -9$
 
-### Respuesta:
-- *det(G) = –9*
+**Procedimiento (Expansión por primera fila):**
 
-### Procedimiento:
+* **Término 1 ($G_{11}$):** 1 (Signo +)
+    $$M_{11} = \det\begin{pmatrix} 3 & 1 \\ 0 & 1 \end{pmatrix} = 3 \quad \Rightarrow \quad (1)(3) = 3$$
 
-#### Expansión por cofactores (primera fila)
+* **Término 2 ($G_{12}$):** 0
+    $$\text{El término es } 0$$
 
-- *Término 1 (G₁₁):*  
-  G₁₁ = 1  
-  Signo: *+*  
-  Menor:
+* **Término 3 ($G_{13}$):** 2 (Signo +)
+    $$M_{13} = \det\begin{pmatrix} -1 & 3 \\ 2 & 0 \end{pmatrix} = -(3 \cdot 2) = -6 \quad \Rightarrow \quad (2)(-6) = -12$$
 
-  math
-  M_{11} = \det\begin{pmatrix} 3 & 1 \\ 0 & 1 \end{pmatrix}
-  = 3
-  
-
-  Término: (1)(3) = 3
-
-- *Término 2 (G₁₂):*  
-  G₁₂ = 0  
-  → Término = *0*
-
-- *Término 3 (G₁₃):*  
-  G₁₃ = 2  
-  Signo: *+*  
-  Menor:
-
-  math
-  M_{13} = \det\begin{pmatrix} -1 & 3 \\ 2 & 0 \end{pmatrix}
-  = - (3·2) = -6
-  
-
-  Término: (2)(–6) = –12
-
-#### Resultado final:
-
-math
-\det(G) = 3 + 0 - 12 = -9
-
+**Cálculo Final:**
+$$\det(G) = 3 + 0 - 12 = -9$$
 
 ---
 
-## Ejercicio 4: Propiedades de los Determinantes
+### Ejercicio 4: Propiedades de los Determinantes
 
-### Enunciado del Problema
+**Matrices:**
 
-math
+$$
 A = \begin{pmatrix} 2 & 1 \\ 1 & 3 \end{pmatrix},\quad
 B = \begin{pmatrix} 1 & 2 \\ 3 & 1 \end{pmatrix}
+$$
 
+**Resultados:**
+* $\det(A) = 5$
+* $\det(B) = -5$
+* $\det(AB) = -25$
+* $\det(A^T) = 5$
 
-### Respuesta 
-- *det(A) = 5*  
-- *det(B) = –5*  
-- *det(AB) = –25*  
-- *det(Aᵀ) = 5*
+**Verificación de Propiedades:**
 
-### Procedimiento:
+1.  **Determinantes individuales:**
+    * $\det(A) = (2 \cdot 3) - (1 \cdot 1) = 5$
+    * $\det(B) = (1 \cdot 1) - (3 \cdot 2) = -5$
 
-#### Cálculo de determinantes reales
+2.  **Propiedad de Multiplicación:** $\det(AB) = \det(A) \cdot \det(B)$
+    $$\det(AB) = -25$$
+    $$5 \cdot (-5) = -25$$
+    *(Propiedad verificada)* 
 
-1. *Determinante de A*
-
-math
-\det(A) = (2·3) - (1·1) = 6 - 1 = 5
-
-
-
-2. *Determinante de B*
-
-math
-\det(B) = (1·1) - (3·2) = - 6 + 1 = - 5
-
-
-
-#### Verificación de la propiedad  
-det(AB) = det(A)·det(B)
-
-
-- det(AB) = –25  
-- det(A)·det(B) = 5(–5) = –25
-
-*Propiedad verificada* 
-
-#### Verificación de det(Aᵀ) = det(A)
-
-- det(Aᵀ) = 5  
-- det(A) = 5  
-  *Propiedad verificada* 
+3.  **Propiedad de la Transpuesta:** $\det(A^T) = \det(A)$
+    $$5 = 5$$
+    *(Propiedad verificada)* 
 
 ---
 
-## Ejercicio 5: Área del Paralelogramo
+### Ejercicio 5: Área del Paralelogramo
 
-### Enunciado del Problema
-Vectores:
+**Vectores:** $U = (3, 2)$ y $V = (1, 4)$
 
-- U = (3, 2)  
-- V = (1, 4)
+**Resultado:**
+* Área = 10 u²
 
-### Respuesta:
-- *Área = 10*
+**Procedimiento:**
 
-### Procedimiento:
+1.  **Matriz formada por vectores:**
+    $$A = \begin{pmatrix} 3 & 2 \\ 1 & 4 \end{pmatrix}$$
 
-1. *Matriz formada por los vectores*
+2.  **Cálculo del determinante:**
+    $$\det(A) = (3 \cdot 4) - (2 \cdot 1) = 12 - 2 = 10$$
 
-math
-A = \begin{pmatrix} 3 & 2 \\ 1 & 4 \end{pmatrix}
-
-
-2. *Determinante*
-
-math
-\det(A) = 12 - 2 = 10
-
-
-3. *Interpretación geométrica*  
-El valor absoluto del determinante representa el área del paralelogramo.
-
-4. *Cambio de orden*
-
-math
-\det\begin{pmatrix} 1 & 4 \\ 3 & 2 \end{pmatrix}
-= 2 - 12 = -10
-
-
-Área = |–10| = 10
-
----
+3.  **Interpretación:**
+    El valor absoluto del determinante representa el área.
+    Si cambiamos el orden de los vectores, el determinante sería $-10$, pero el área sigue siendo $|-10| = 10$.
