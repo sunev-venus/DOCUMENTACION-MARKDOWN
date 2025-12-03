@@ -135,21 +135,73 @@ $$
 $$
 
 ---
-#### Matriz B:
+#### Resolución por Gauss-Jordan
 $$
-B =
-\begin{pmatrix}
-3 & 0 & 0 \\
-0 & -2 & 0 \\
-0 & 0 & 5 \\
-\end{pmatrix}
+\left[
+\begin{array}{ccc|c}
+1 & 1 & 1 & 6\\
+0 & 1 & -2 & -4\\
+0 & 0 & -7 & -21
+\end{array}
+\right]
 $$
 
-**Tipo:** *Matriz diagonal*  
-**Justificación:** Todos los elementos fuera de la diagonal principal son **0**.
+1. Tercera fila:
+
+$$
+R_3 \leftarrow -\frac{1}{7} R_3
+\Longrightarrow
+\left[
+\begin{array}{ccc|c}
+1 & 1 & 1 & 6\\
+0 & 1 & -2 & -4\\
+0 & 0 & 1 & 3
+\end{array}
+\right]
+$$
+
+2. Eliminar la variable \(z\) en filas 1 y 2:
+
+$$
+R_2 \leftarrow R_2 + 2R_3,\quad
+R_1 \leftarrow R_1 - R_3
+$$
+
+$$
+\longrightarrow
+\left[
+\begin{array}{ccc|c}
+1 & 1 & 0 & 3\\
+0 & 1 & 0 & 2\\
+0 & 0 & 1 & 3
+\end{array}
+\right]
+$$
+
+3. Eliminar \(y\) de la primera fila:
+
+$$
+R_1 \leftarrow R_1 - R_2
+$$
+
+$$
+\Longrightarrow
+\left[
+\begin{array}{ccc|c}
+1 & 0 & 0 & 1\\
+0 & 1 & 0 & 2\\
+0 & 0 & 1 & 3
+\end{array}
+\right]
+$$
+
+Solución final:
+
+$$
+x = 1,\quad y = 2,\quad z = 3.
+$$
 
 ---
-
 #### Matriz C:
 $$
 C =
