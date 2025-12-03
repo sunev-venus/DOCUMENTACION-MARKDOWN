@@ -1,20 +1,17 @@
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
 ## Alumno: Venus Getsemaní Semino Alemán
-## Actividad \#16 - Matrices doc
-**Fecha:** 11 de noviembre de 2025 
+## Actividad #- Resolución de sistemas de ecuaciones lineales
   
 
 ---
 
 ##  Objetivo de la Documentación
-El propósito de este documento es **registrar y explicar paso a paso** los ejercicios relacionados con el **tema de matrices**, abarcando su **clasificación, operaciones básicas y multiplicación de cadenas de matrices**, con el fin de reforzar los fundamentos de álgebra lineal aplicados en programación.
+El propósito de este documento es **registrar la resolución de ecuacines lineares utilizando matrices**. Los métodos que se implementaron son: **Gauss,Gauss-Jordan, matriz inversa y regla de Cremer**.
 
 ---
 
 ##  Ejercicios Realizados
-
-A continuación, se documentan los ejercicios solicitados con su respectivo enunciado, solución y procedimiento. Estos fueron realizados en el salón de clase como asistencia del día.
 
 ---
 
